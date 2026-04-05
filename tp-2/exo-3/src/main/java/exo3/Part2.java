@@ -8,7 +8,7 @@ import org.jgrapht.graph.SimpleWeightedGraph;
 
 public class Part2 {
   static void run() {
-    // Part C
+    // Part E
     // 1. Créer un graphe pondéré.
     Graph<String, DefaultWeightedEdge> wg = new SimpleWeightedGraph<>(DefaultWeightedEdge.class);
 

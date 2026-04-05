@@ -91,8 +91,8 @@ public class Main {
     System.out.println();
   }
 
-  // 5. Écrire une méthode qui recherche un étudiant par son identifiant dans la
-  // liste.
+  // 5. Écrire une méthode qui recherche un étudiant par
+  // son identifiant dans la liste.
   public static Etudiant findById(List<Etudiant> etudiants, String id) {
     for (Etudiant etudiant : etudiants)
       if (etudiant.getId() == id)
